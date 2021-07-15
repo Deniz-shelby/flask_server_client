@@ -2,15 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WebSocket</title>
 </head>
 <body>
-    <form action = "http://localhost:5000/uploader" method = "POST" 
-         enctype = "multipart/form-data">
-         <input type = "file" name = "file" />
-         <input type = "submit"/>
-      </form> 
+<h1>This is webSocket client</h1>
+<form action="/send_client">
+    <button type="submit">Submit</button>
+</form>
+<p>Prediction: {{ prediction }}</p>
 </body>
 </html>
